@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CLOUDINARY_BASE = "https://res.cloudinary.com/daxjf0uyj/image/upload/v1786996904/";
+const CLOUDINARY_BASE = "https://media.bromen.id/static/link/";
 
 export default function Home() {
   const socialLinks = [
@@ -57,11 +57,11 @@ export default function Home() {
   return (
     <div 
       className="bg-[#001D4A] text-white min-h-screen flex flex-col items-center px-6 py-16 bg-fixed bg-bottom bg-cover bg-no-repeat"
-      style={{ backgroundImage: `url('${CLOUDINARY_BASE}/BG_Mountain_ty1e5r.png')` }}
+      style={{ backgroundImage: `url('${CLOUDINARY_BASE}BG_Mountain_ty1e5r.png')` }}
     >
       <div className="mb-12">
         <img 
-          src={`${CLOUDINARY_BASE}/Logo_02_iwhuod.png`} 
+          src={`${CLOUDINARY_BASE}Logo_02_iwhuod.png`} 
           alt="Bromen Logo" 
           className="w-72 object-contain filter drop-shadow-lg"
         />

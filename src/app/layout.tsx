@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 });
 
 // Replace with your exact Cloudinary favicon PNG/SVG URL
-const CLOUDINARY_FAVICON = "https://res.cloudinary.com/daxjf0uyj/image/upload/v1786996826/LOGO_BROMEN_tgx87q.png";
+const CLOUDINARY_FAVICON = "https://media.bromen.id/static/link/favicon.png";
 
 export const metadata: Metadata = {
   title: "Bromen | Official Links",
